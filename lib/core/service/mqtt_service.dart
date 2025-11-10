@@ -12,7 +12,7 @@ class MqttService {
   var pingCount = 0;
 
   MqttService() {
-    client = MqttServerClient('34.67.137.54', 'flutter_client');
+    client = MqttServerClient('35.192.218.203', 'flutter_client');
     client.port = 1883;
     client.logging(on: false);
     client.setProtocolV311();
