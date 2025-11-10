@@ -6,7 +6,7 @@ import 'package:manager_mqtt/core/http_request/data_device_request_http.dart';
 import 'package:manager_mqtt/core/http_request/device_request_http.dart';
 
 abstract class InjectionData {
-  static Dio dio = Dio(BaseOptions(baseUrl: "http://34.67.137.54:5000/api/"));
+  static Dio dio = Dio(BaseOptions(baseUrl: "http://35.192.218.203:5000/api/"));
 
   static void  initialize() {
     ApiClient apiClient = ApiClient(dio: dio);
